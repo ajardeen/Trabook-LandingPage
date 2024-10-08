@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Agency Landing Page</title>
+    <link rel="stylesheet" href="/StyleFolder/indexStyle.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="mx-4">
+    <!-- nav bar -->
+    <nav >
+      <div class="nav-logo">
+        <p>Trabook</p>
+        <img src="/asset/icon/Vector (1).svg" alt="logo svg" />
+      </div>
+      <div class="nav-info">
+        <p>Home</p>
+        <p>About</p>
+        <p>Destination</p>
+        <p>Tour</p>
+        <p>Blog</p>
+      </div>
+      <div class="nav-login">
+        <button id="login">Login</button>
+        <button id="signup">Sign up</button>
+      </div>
+    </nav>
+
+    <!-- hero banner -->
+    <div class="heroBanner flex flex-col sm:flex-row">
+      <div class="heroLeft ">
+        <h1 class="font-['Volkhov']">
+          Get started your exciting
+          <span class="text-orange-500 font-bold">journey</span> with us.
+        </h1>
+        <p class="font-light">
+          A Team of experienced tourism professional will provide you with the
+          best advice and tips for your desire place.
+        </p>
+        <a class="discover-btn">Discover Now</a>
+      </div>
+      <div class="heroRight ">
+        <div class="heroPerson ">
+        <img src="./asset/image/heroPerson.png" alt="image" class="sm:w-[700px]">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- hero bottom  -->
+
+    <div class="flex justify-center pt-10 sm:pt-0">
+      <div class="flex flex-col sm:flex-row shadow-2xl">
+        <div class="part1 py-6 px-6 w-60 mx-1">
+          <h4 class="flex font-bold">
+            Location<img
+              class="w-4 h-3 mx-1 my-2"
+              src="/asset/image/Vector 4855.png"
+            />
+          </h4>
+          <p>Where are you going</p>
+        </div>
+        <div class="part2 py-6 px-6 w-60">
+          <h4 class="flex font-bold">
+            Date<img
+              class="w-4 h-3 mx-1 my-2"
+              src="/asset/image/Vector 4855.png"
+            />
+          </h4>
+          <p>When you will go</p>
+        </div>
+        <div class="part3 py-6 px-6 w-60">
+          <h4 class="flex font-bold">
+            Guest<img
+              class="w-4 h-3 mx-1 my-2"
+              src="/asset/image/Vector 4855.png"
+            />
+          </h4>
+          <p>Number of guest</p>
+        </div>
+        <button class="bg-orange-500 text-white px-10 sm:px-9 h-8 sm:h-16 rounded-md my-6 mx-5">
+          Explore Now
+        </button>
+      </div>
+    </div>
+
+    <!-- Things you need to do start here  -->
+    <div class="bg-[#F7F8FC] flex flex-col w-[100%] items-center sm:items-center sm:justify-center">
+      <div class="text-center flex sm:w-96">
+        <div class="left">
+          <h1 class="font-bold text-2xl sm:text-4xl my-7">
+            Things you need <span class="text-orange-600">to do</span>
+          </h1>
+          <p class="text-sm w-[100%] sm:text-base">
+            We ensure that you'|| embark on a perfectly planned, safe vacation
+            at a price you can afford.
+          </p>
+        </div>
+      </div>
+      <!-- right  -->
+      <div class="flex flex-col sm:flex-row gap-10 my-10">
+        <div class="shadow-2xl p-8 w-80">
+          <img src="/asset/icon/Group (1).svg" />
+          <h4 class="font-bold">Sign Up</h4>
+          <p>Completes all the work associated with planning and processing</p>
+        </div>
+        <div class="shadow-2xl p-8 w-80">
+          <img src="/asset/icon/Group (2).svg" />
+          <h4 class="font-bold">Worth of Money</h4>
+          <p>
+            After successful access then book from exclusive deals & pricing
+          </p>
+        </div>
+        <div class="shadow-2xl p-7 w-80">
+          <img src="/asset/icon/Group.svg" />
+          <h4 class="font-bold">Exciting Travel</h4>
+          <p>Start and explore a wide range of exciting travel experience</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Exclusive deal part -->
+    <div class="flex  flex-col items-center text-center">
+      <h1 class="font-bold text-4xl">
+        Exclusive <span class="text-orange-500">deal & discounts</span>
+      </h1>
+      <p class="text-sm w-72 py-7">
+        Discover our fantastic early booking discounts & start planning your
+        journey
+      </p>
+      <div>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <div class="shadow-lg">
+            <img class="" src="/asset/image/Image (2).png" alt="Madrid" />
+            <div class="py-4">
+              <div class="flex justify-between px-3">
+                <h4 class="font-bold">Madrid</h4>
+                <div class="flex gap-1">
+                  <img src="/asset/icon/star 1.svg" />
+                  <p>4.8</p>
+                </div>
+              </div>
+              <div class="flex justify-between px-3 my-2">
+                <div class="flex gap-1">
+                  <img
+                    class="w-3 h-3 my-1 hover:bg-gray-700"
+                    src="/asset/icon/location-grey.svg"
+                  />
+                  <p class="text-sm text-gray-600">Spain</p>
+                </div>
+                <div class="flex gap-1">
+                  <p
+                    class="line-through opacity-70 text-sm text-gray-600 rounded-lg px-1"
+                  >
+                    $950
+                  </p>
+                  <p
+                    class="bg-orange-300 bg-opacity-30 text-orange-600 rounded-lg px-1"
+                  >
+                    $850
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-lg">
+            <img src="/asset/image/Image (3).png" alt="Firenze" />
+            <div class="py-4">
+              <div class="flex justify-between px-3">
+                <h4 class="font-bold">Firenze</h4>
+                <div class="flex gap-1">
+                  <img src="/asset/icon/star 1.svg" />
+                  <p>4.5</p>
+                </div>
+              </div>
+              <div class="flex justify-between px-3 my-2">
+                <div class="flex gap-1">
+                  <img
+                    class="w-3 h-3 my-1"
+                    src="/asset/icon/location-grey.svg"
+                  />
+                  <p class="text-sm text-gray-600">Italy</p>
+                </div>
+                <div class="flex gap-1">
+                  <p
+                    class="line-through opacity-70 text-sm text-gray-600 rounded-lg px-1"
+                  >
+                    $850
+                  </p>
+                  <p
+                    class="bg-orange-300 bg-opacity-30 text-orange-600 rounded-lg px-1"
+                  >
+                    $750
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-lg">
+            <img src="/asset/image/Image (4).png" alt="Paris" />
+            <div class="py-4">
+              <div class="flex justify-between px-3">
+                <h4 class="font-bold">Paris</h4>
+                <div class="flex gap-1">
+                  <img src="/asset/icon/star 1.svg" />
+                  <p>4.4</p>
+                </div>
+              </div>
+              <div class="flex justify-between px-3 my-2">
+                <div class="flex gap-1">
+                  <img
+                    class="w-3 h-3 my-1"
+                    src="/asset/icon/location-grey.svg"
+                  />
+                  <p class="text-sm text-gray-600">France</p>
+                </div>
+                <div class="flex gap-1">
+                  <p
+                    class="line-through opacity-70 text-sm text-gray-600 rounded-lg px-1"
+                  >
+                    $699
+                  </p>
+                  <p
+                    class="bg-orange-300 bg-opacity-30 text-orange-600 rounded-lg px-1"
+                  >
+                    $599
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shadow-lg">
+            <img src="/asset/image/Image (5).png" alt="London" />
+            <div class="py-4">
+              <div class="flex justify-between px-3">
+                <h4 class="font-bold">London</h4>
+                <div class="flex gap-1">
+                  <img src="/asset/icon/star 1.svg" />
+                  <p>4.8</p>
+                </div>
+              </div>
+              <div class="flex justify-between px-3 my-2">
+                <div class="flex gap-1">
+                  <img
+                    class="w-3 h-3 my-1"
+                    src="/asset/icon/location-grey.svg"
+                  />
+                  <p class="text-sm text-gray-600">UK</p>
+                </div>
+                <div class="flex gap-1">
+                  <p
+                    class="line-through opacity-70 text-sm text-gray-600 rounded-lg px-1"
+                  >
+                    $850
+                  </p>
+                  <p
+                    class="bg-orange-300 bg-opacity-30 text-orange-600 rounded-lg px-1"
+                  >
+                    $850
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- Best vacation plan start here -->
+    <div class="flex flex-col items-center text-center my-24">
+      <div class="flex">
+        <div class="flex flex-col">
+          <h1 class="font-bold text-3xl sm:text-4xl">
+            Best <span class="text-orange-500">vacation plan</span>
+          </h1>
+          <p class="text-sm sm:w-96 py-7">
+            Plan your perfect vacation with our travel agency.Choose among
+            hundreds of all-inclusive offers!
+          </p>
+        </div>
+        <div>
+          <img src="/asset/icon/Element.png" alt="vacation" />
+        </div>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-4 relative py-10">
+        <div class="flex gap-5 w-7 h-7 absolute right-14 sm:right-10 top-0">
+          <img src="/asset/icon/Btn-1.svg" alt="" />
+          <img src="/asset/icon/Btn-2.svg" alt="" />
+        </div>
+        <div class="shadow-lg mx-8 sm:mx-0">
+          <img class="" src="/asset/image/Image (6).png" alt="Rome"/>
+          <div class="py-4">
+            <div class="flex justify-between px-3">
+              <h4 class="font-bold">Rome,Italy</h4>
+              <div class="flex gap-1">
+                <p class="text-orange-400 rounded-lg px-1 font-bold">$5,42k</p>
+              </div>
+            </div>
+            <div class="flex justify-between px-3 my-2">
+              <div class="flex gap-1">
+                <img
+                  class="w-3 h-3 my-1 hover:bg-gray-700"
+                  src="/asset/icon/Uparrow.svg"
+                />
+                <p class="text-sm text-gray-600">10 Days Trip</p>
+              </div>
+              <div class="flex gap-1">
+                <img src="/asset/icon/star 1.svg" />
+                <p>4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-lg mx-8 sm:mx-0">
+          <img class="" src="/asset/image/Image (7).png" alt="UK" />
+          <div class="py-4">
+            <div class="flex justify-between px-3">
+              <h4 class="font-bold">London,UK</h4>
+              <div class="flex gap-1">
+                <p class="text-orange-400 rounded-lg px-1 font-bold">$2,42k</p>
+              </div>
+            </div>
+            <div class="flex justify-between px-3 my-2">
+              <div class="flex gap-1">
+                <img
+                  class="w-3 h-3 my-1 hover:bg-gray-700"
+                  src="/asset/icon/Uparrow.svg"
+                />
+                <p class="text-sm text-gray-600">07 Days Trip</p>
+              </div>
+              <div class="flex gap-1">
+                <img src="/asset/icon/star 1.svg" />
+                <p>4.7</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shadow-lg mx-8 sm:mx-0">
+          <img class="" src="/asset/image/Image (8).png" alt="Japan" />
+          <div class="py-4">
+            <div class="flex justify-between px-3">
+              <h4 class="font-bold">Osaka,Japan</h4>
+              <div class="flex gap-1">
+                <p class="text-orange-400 rounded-lg px-1 font-bold">$5,42k</p>
+              </div>
+            </div>
+            <div class="flex justify-between px-3 my-2">
+              <div class="flex gap-1">
+                <img
+                  class="w-3 h-3 my-1 hover:bg-gray-700"
+                  src="/asset/icon/Uparrow.svg"
+                />
+                <p class="text-sm text-gray-600">10 Days Trip</p>
+              </div>
+              <div class="flex gap-1">
+                <img src="/asset/icon/star 1.svg" />
+                <p>4.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- What people say about us start here  -->
+    <div class="bg-[#F7F8FC] w-full py-10">
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-5 sm:gap-28">
+        <div class="grid gap-4 sm:w-96">
+          <h1 class="font-bold text-3xl sm:text-4xl text-center sm:text-left">
+            What people say <span class="text-orange-600">about us.</span>
+          </h1>
+          <p class="text-center sm:text-left">
+            Our Clients send bunch of smiles with our services and we love them.
+          </p>
+          <div class="flex gap-9 w-7 h-7">
+            <img src="/asset/icon/Btn-1.svg" alt="" />
+            <img src="/asset/icon/Btn-2.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="w-[100%] sm:w-96 h-96 relative flex flex-col items-center justify-center">
+       <img
+            src="/asset/image/man laungh.png"
+            class="absolute z-20 top-7 sm:top-14 sm:-left-16 -left-0" />
+          <div class="px-4 sm:px-8 py-3 bg-white absolute shadow-lg z-10 rounded-lg">
+            <p class="font-light w-[100%] sm:w-96">
+              “On the Windows talking painted pasture yet its express parties
+              use. Sure last upon he same as knew next. Of believed or diverted
+              no.”
+            </p>
+            <div class="my-4">
+              <h3 class="font-bold">Mike taylor</h3>
+              <p class="font-light">Lahore,Pakistan</p>
+            </div>
+          </div>
+  
+          <div class=" px-4 sm:px-8 py-3 bg-white shadow-lg absolute rounded-lg opacity-50 bottom-3 sm:bottom-8 sm:-right-16">
+            <p class="font-light w-[100%] sm:w-96">
+              “On the Windows talking painted pasture yet its express parties
+              use. Sure last upon he same as knew next. Of believed or diverted
+              no.”
+            </p>
+            <div class="my-3">
+              <h3 class="font-bold">Chris Thomas</h3>
+              <p class="font-light">CEO of Red Button</p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="/asset/image/threeplain.png"
+          class="relative -top-20 -left-20 hidden sm:block"/>
+      </div>
+    </div>
+
+    <!-- Get update with latest blog  -->
+    <div class="flex flex-col items-center text-start my-20">
+      <div class="flex">
+        <div class="flex flex-col">
+          <h1 class="font-bold text-3xl sm:text-4xl text-center sm:text-left">
+            Get update with <span class="text-orange-500">latest blog</span>
+          </h1>
+        </div>
+      </div>
+      <div class="flex flex-col items-center">
+        <div class="flex sm:flex-row flex-col gap-4 relative py-10">
+        
+          <div>
+            <img src="/asset/image/Image (11).png" alt="Rome" />
+            <div class="py-4">
+              <div>
+                <h4 class="font-semibold">
+                  The Amazing Difference a <br />Year of Travelling.
+                </h4>
+              </div>
+              <div class="flex my-2">
+                <p class="text-sm text-gray-400">July 27,2021</p>
+              </div>
+            </div>
+          </div>
+        
+          <div>
+            <img src="/asset/image/Image (12).png" alt="Rome" />
+            <div class="py-4">
+              <div>
+                <h4 class="font-semibold">
+                  Travel far enough, you <br />meet yourself.
+                </h4>
+              </div>
+              <div class="flex my-2">
+                <p class="text-sm text-gray-400">July 27,2021</p>
+              </div>
+            </div>
+          </div>
+         
+          <div>
+            <img src="/asset/image/Image (13).png" alt="Rome" />
+            <div class="py-4">
+              <div>
+                <h4 class="font-semibold">
+                  How to Save Money While <br />Visiting Africa.
+                </h4>
+              </div>
+              <div class="flex my-2">
+                <p class="text-sm text-gray-400">July 27,2021</p>
+              </div>
+            </div>
+          </div>
+ 
+          <div>
+            <img src="/asset/image/Image (11).png" alt="Rome" />
+            <div class="py-4">
+              <div>
+                <h4 class="font-semibold">
+                  Reflection on 5 Months of <br />YTravel:Time to Hang
+                </h4>
+              </div>
+              <div class="flex my-2">
+                <p class="text-sm text-gray-400">July 27,2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <img class="w-12 h-3" src="/asset/icon/Slider.png" />
+      </div>
+    </div>
+
+    <!-- Subscribe banner start here  -->
+    <div class="flex items-center justify-center ">
+      <div
+        class="relative w-[100%]  bg-[#FA7436] rounded-lg flex flex-col gap-2 sm:gap-10 justify-center text-center items-center py-7 sm:py-14 px-0 sm:px-40 border sm:my-20"
+      >
+        <h1 class="text-white text-xl sm:text-4xl w-3/4">
+          Subscribe and get exclusive deals & offer
+        </h1>
+        <div class="relative z-10">
+          <input
+            type="text"
+            placeholder="Enter your mail"
+            class="pr-10 sm:pr-80 pl-8 mx-2 p-2 sm:p-4 rounded-lg w-[100%]"
+          />
+          <div>
+            <button class="absolute py-1 sm:py-3 px-5 top-1 right-1 bg-[#FA7436] text-white rounded-xl" >
+              Subscribe
+            </button>
+            <img src="/asset/icon/mailicon.svg" class="absolute top-3 sm:top-5 left-4" />
+          </div>
+        </div>
+        <img
+          src="/asset/icon/twotree.png"
+          class="absolute top-0 right-0 size-10 sm:size-20"
+        />
+        <img src="/asset/icon/ring.png" class="absolute bottom-0 left-0 h-40 sm:h-72" />
+      </div>
+    </div>
+
+    <!-- footer  -->
+    <footer class="flex flex-col sm:flex-row pl-5 sm:pl-0 sm:items-center sm:justify-center sm:justify-evenly sm:ml-28 sm:items-start">
+
+      <div class="flex flex-col gap-7  sm:items-start  sm:gap-5 w-72">
+    
+        <div class="flex gap-3">
+          <h2 class="font-bold">Trabook</h2>
+          <img src="/asset/icon/Vector (1).svg" alt="" />
+        </div>
+  
+        <div>
+          <p class="font-light">
+            Book our trip in minute,get full Control for much longer.
+          </p>
+        </div>
+     
+        <div class="flex gap-6">
+          <img
+            class="bg-white shadow-lg p-2 rounded-full"
+            src="/asset/icon/Facebook Icon.svg"
+            alt="facbook"
+          />
+          <img
+            class="bg-orange-600 shadow-lg p-2 rounded-full"
+            src="/asset/icon/insta.png"
+            alt="instagram"
+          />
+          <img
+            class="bg-white shadow-lg p-2 rounded-full"
+            src="/asset/icon/twitter.png"
+            alt="twitter"
+          />
+        </div>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-10 pt-5">
+      <div class="grid gap-5">
+        <h2 class="font-bold">Company</h2>
+        <ul class="list-none grid gap-3 font-light">
+          <li>About</li>
+          <li>Careers</li>
+          <li>Logistic</li>
+          <li>Privacy & Policy</li>
+        </ul>
+      </div>
+ 
+      <div class="grid gap-5">
+        <h2 class="font-bold">Contact</h2>
+        <ul class="list-none grid gap-3 font-light">
+          <li>Help/FAQ</li>
+          <li>Press</li>
+          <li>Affilates</li>
+        </ul>
+      </div>
+
+      <div class="grid gap-5">
+        <h2 class="font-bold">More</h2>
+        <ul class="list-none grid gap-3 font-light">
+          <li>Press Center</li>
+          <li>Our Blog</li>
+          <li>Low fare tips</li>
+        </ul>
+      </div>
+    </div>
+    </footer>
+
+    
+    <hr class="sm:my-14 sm:mx-28" />
+    <div class="`sm:mx-28 sm:mb-10 flex text-[5px] sm:text-sm justify-between">
+      <p class="font-light">Copyright,Trabook 2022. All rights reserved.</p>
+      <p class="font-light">Terms & Conditions</p>
+    </div>
+  </body>
+</html>
